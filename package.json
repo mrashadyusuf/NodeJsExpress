@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-express-sequelize-mysql",
+  "name": "nodejs-express-sequelize-postgresql",
   "version": "1.0.0",
-  "description": "Node.js Rest Apis with Express, Sequelize & MySQL",
+  "description": "Node.js Rest Apis with Express, Sequelize & M",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,17 +9,19 @@
   "keywords": [
     "nodejs",
     "express",
+    "sequelize",
     "rest",
     "api",
-    "sequelize",
-    "mysql"
+    "postgresql"
   ],
   "author": "bezkoder",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "mysql2": "^2.3.3",
-    "sequelize": "^6.32.0"
+    "pg": "^8.7.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.32.0",
+    "dotenv": "^10.0.0"
   }
 }
